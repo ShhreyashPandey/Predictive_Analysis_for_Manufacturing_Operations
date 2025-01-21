@@ -12,9 +12,10 @@ This API provides endpoints for uploading data, training a ML model, and making 
    > Running on http://127.0.0.1:5007
    
    ![image](https://github.com/user-attachments/assets/64601dee-9814-4d94-bba9-d74758d56746)
+   
    I have used PyCharm to run the program
 
-6.  Now to test the API we will use cURL in Command Prompt
+6.  Now, to test the API we will use cURL, in Command Prompt
   
    a. Upload a CSV file(with columns Temperature, Run_Time, and Downtime_Flag) containing the data for training.
 
