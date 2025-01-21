@@ -14,6 +14,7 @@ This API provides endpoints for uploading data, training a ML model, and making 
    ![image](https://github.com/user-attachments/assets/64601dee-9814-4d94-bba9-d74758d56746)
 
 5.  Now to test the API we will use cURL
+  
    a. Upload a CSV file(with columns Temperature, Run_Time, and Downtime_Flag) containing the data for training.
 
    ```curl -X POST -F "file=@data.csv" http://127.0.0.1:5007/upload```
